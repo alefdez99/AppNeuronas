@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Título y logo de la aplicación
-st.image("img/neurona.png", use_container_width=True)  # Se cambió a use_container_width
+st.image("img/neurona.jpg", use_container_width=True)  # Se cambió a use_container_width
 st.title("¡Hola nuerona!")
 
 tab1, tab2, tab3 = st.tabs(["Una entrada", "Dos entradas", "Tres entradas y sesgo"])
